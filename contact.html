@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — AAROHAN Manufacturing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <div>
+      <div class="loader__mark">AAROHAN</div>
+      <div class="loader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="logo">AARO<span>HAN</span></a>
+      <button class="nav__toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="capabilities.html">Capabilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html" class="nav__cta">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1 class="display">Talk to the plant</h1>
+        <p class="lead">RFQs, plant visits, and vendor onboarding — reach the Chakan desk in English, Hindi, or Marathi.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="contact-info reveal-left">
+          <p class="eyebrow">Aarohan HQ</p>
+          <h2 class="display" style="font-size: clamp(2.2rem, 5vw, 3.2rem); margin-bottom: 1rem;">Chakan MIDC, Pune</h2>
+          <p>Plot A-42 / 43, Phase II<br />Chakan Industrial Area<br />Pune, Maharashtra 410501</p>
+
+          <h3>Sales &amp; RFQ</h3>
+          <p><a href="tel:+912067890100">+91 20 6789 0100</a></p>
+          <p><a href="mailto:sales@aarohan.in">sales@aarohan.in</a></p>
+
+          <h3>Plant visits</h3>
+          <p><a href="mailto:visits@aarohan.in">visits@aarohan.in</a></p>
+          <p>Mon–Sat · 09:30–17:30 IST<br />Prior appointment required for PPE &amp; gate pass.</p>
+
+          <h3>GSTIN</h3>
+          <p>27AABCA1234D1Z5 (demo)</p>
+        </aside>
+
+        <form class="contact-form reveal-right" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" required placeholder="Priya Sharma" />
+            </div>
+            <div class="field">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" required placeholder="OEM / Tier-1" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" required placeholder="you@company.in" />
+            </div>
+            <div class="field">
+              <label for="phone">Mobile</label>
+              <input id="phone" name="phone" type="tel" required placeholder="+91" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="interest">Enquiry type</label>
+            <select id="interest" name="interest">
+              <option>New component RFQ</option>
+              <option>Bridge / surge capacity</option>
+              <option>Plant visit</option>
+              <option>Vendor registration</option>
+              <option>Careers</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Part family, monthly volume, target SOP, drawings available…"></textarea>
+          </div>
+          <p class="form-note">Demo form — submissions stay in your browser and show a confirmation only.</p>
+          <div class="form-success">Dhanyavaad — your enquiry note is ready. In production this would email sales@aarohan.in.</div>
+          <button type="submit" class="btn btn--primary">Send enquiry</button>
+        </form>
+      </div>
+
+      <div class="container">
+        <div class="map-strip reveal">
+          <div>
+            <h2 class="display">Find us off the Pune–Nashik highway</h2>
+            <p>45 min from Pune Airport · Gate 2 for visitor parking</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="logo">AARO<span>HAN</span></a>
+          <p>Precision manufacturing from Chakan MIDC, Pune — Make in India, ship worldwide.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="about.html">About</a>
+          <a href="capabilities.html">Capabilities</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html">Careers desk</a>
+        </div>
+        <div>
+          <h4>Plant</h4>
+          <a href="tel:+912067890100">+91 20 6789 0100</a>
+          <a href="mailto:sales@aarohan.in">sales@aarohan.in</a>
+          <a href="contact.html">Chakan, Pune 410501</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Aarohan Manufacturing Pvt. Ltd.</span>
+        <span>GSTIN · Maharashtra</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

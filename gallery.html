@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — AAROHAN Manufacturing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <div>
+      <div class="loader__mark">AAROHAN</div>
+      <div class="loader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="logo">AARO<span>HAN</span></a>
+      <button class="nav__toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="capabilities.html">Capabilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html" class="nav__cta">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Gallery</p>
+        <h1 class="display">Inside the Chakan campus</h1>
+        <p class="lead">Machines, metal, and monsoon light — a look at how Aarohan parts move from billet to bay.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-intro reveal">
+          <div>
+            <p class="eyebrow">Photo journal</p>
+            <h2 class="display" style="font-size: clamp(2.2rem, 5vw, 3.4rem);">Steel under Maharashtra light</h2>
+          </div>
+          <p>These frames are from Plants 1–4 across day and night shifts. Click any image to enlarge. Filters help you jump between floor, process, and campus views.</p>
+        </div>
+
+        <div class="gallery-filters reveal">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="floor">Shop floor</button>
+          <button class="filter-btn" data-filter="process">Process</button>
+          <button class="filter-btn" data-filter="plant">Campus</button>
+          <button class="filter-btn" data-filter="people">People</button>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--wide" data-cat="floor">
+            <img src="assets/hero-factory.jpg" alt="Main CNC bay under high windows" />
+            <figcaption class="gallery-item__cap">
+              <span>Shop floor</span>
+              <strong>Plant 2 · CNC bay</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="process">
+            <img src="assets/gallery-cnc.jpg" alt="CNC milling close-up" />
+            <figcaption class="gallery-item__cap">
+              <span>Process</span>
+              <strong>Live cut · VMC</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="process">
+            <img src="assets/gallery-forge.jpg" alt="Hot forging press with glowing billet" />
+            <figcaption class="gallery-item__cap">
+              <span>Process</span>
+              <strong>Plant 1 · Hot forge</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--wide" data-cat="floor">
+            <img src="assets/gallery-assembly.jpg" alt="Assembly line for automotive parts" />
+            <figcaption class="gallery-item__cap">
+              <span>Shop floor</span>
+              <strong>Module assembly</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="process">
+            <img src="assets/gallery-qc.jpg" alt="Quality inspection of gears" />
+            <figcaption class="gallery-item__cap">
+              <span>Process</span>
+              <strong>Metrology cell</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="process">
+            <img src="assets/gallery-heattreat.jpg" alt="Heat treatment furnace line" />
+            <figcaption class="gallery-item__cap">
+              <span>Process</span>
+              <strong>Heat treat line</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="plant">
+            <img src="assets/about-facility.jpg" alt="Component warehouse aisle" />
+            <figcaption class="gallery-item__cap">
+              <span>Campus</span>
+              <strong>Finished goods</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--wide" data-cat="plant">
+            <img src="assets/gallery-plant.jpg" alt="Aarohan plant exterior at night" />
+            <figcaption class="gallery-item__cap">
+              <span>Campus</span>
+              <strong>Chakan night shift</strong>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--wide" data-cat="people">
+            <img src="assets/about-training.jpg" alt="Operator training at Aarohan Gurukul" />
+            <figcaption class="gallery-item__cap">
+              <span>People</span>
+              <strong>Gurukul classroom</strong>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="feature-split reveal">
+          <div class="feature-split__media">
+            <img src="assets/gallery-forge.jpg" alt="Forging press in action" />
+          </div>
+          <div class="feature-split__copy">
+            <p class="eyebrow">Plant 1</p>
+            <h2 class="display">Where the hammer still speaks</h2>
+            <p>Closed-die forging is still the heartbeat of Aarohan. Billets heat, dies close, and grain flows into knuckles and hubs that will later see Indian highways and rail corridors.</p>
+            <p>Die try-out happens on the same campus — so when a Pune OEM asks for a geometry tweak, we don’t wait on an outstation toolroom.</p>
+            <div class="chip-row">
+              <span class="chip">400–2500T</span>
+              <span class="chip">In-house dies</span>
+              <span class="chip">Alloy steels</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-split feature-split--flip reveal">
+          <div class="feature-split__media">
+            <img src="assets/gallery-heattreat.jpg" alt="Heat treatment operators at furnace" />
+          </div>
+          <div class="feature-split__copy">
+            <p class="eyebrow">Plant 3</p>
+            <h2 class="display">Heat that holds the drawing</h2>
+            <p>Carburising and induction recipes are charted per heat. Operators watch atmosphere panels the way a railway driver watches signals — small drifts get logged before they become scrap.</p>
+            <p>Every temper batch ties back to the forge lot, so your SQA can follow hardness from billet to box.</p>
+            <div class="chip-row">
+              <span class="chip">Carburising</span>
+              <span class="chip">Induction</span>
+              <span class="chip">Case depth</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-split reveal">
+          <div class="feature-split__media">
+            <img src="assets/about-training.jpg" alt="Training session for operators" />
+          </div>
+          <div class="feature-split__copy">
+            <p class="eyebrow">People</p>
+            <h2 class="display">Gurukul before the cell</h2>
+            <p>New setters and inspectors spend time in Aarohan Gurukul — bilingual sessions covering 5S, poka-yoke, gauge care, and how to stop a line without fear.</p>
+            <p>We believe a confident “ruko” on the floor saves more cost than a late CAPA after a customer visit.</p>
+            <div class="chip-row">
+              <span class="chip">Marathi + English</span>
+              <span class="chip">ITI pipeline</span>
+              <span class="chip">Safety first</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__head reveal" style="margin-top: 4rem;">
+          <p class="eyebrow">Visit notes</p>
+          <h2 class="display">What guests usually see</h2>
+        </div>
+        <div class="story-grid">
+          <article class="story-card reveal">
+            <h3>Morning shift walk</h3>
+            <p>Start at Plant 2 CNC, then forge, heat treat, and metrology. PPE and visitor badges issued at Gate 2 — allow 15 minutes for security.</p>
+          </article>
+          <article class="story-card reveal">
+            <h3>SQA deep dive</h3>
+            <p>Half-day for CMM demos, control plan review, and live SPC screens. Bring drawings you want us to map against current capability.</p>
+          </article>
+          <article class="story-card reveal">
+            <h3>Photography rules</h3>
+            <p>Approved zones only. No phones near customer-confidential fixtures. We can provide a cleared media kit on request.</p>
+          </article>
+          <article class="story-card reveal">
+            <h3>Best season</h3>
+            <p>October–February for clear light and fewer monsoon delays. Festival weeks need advance booking — plants still run, but tour windows shrink.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band__row">
+        <div class="reveal">
+          <p class="eyebrow">Media kit</p>
+          <h2 class="display">Need high-res plant shots?</h2>
+          <p>We share approved photography with OEM marketing and sourcing teams on request — plus a short campus fact sheet in English and Hindi.</p>
+        </div>
+        <a href="mailto:press@aarohan.in" class="btn btn--primary reveal">press@aarohan.in</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button class="lightbox__close" aria-label="Close">×</button>
+    <img src="" alt="" />
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="logo">AARO<span>HAN</span></a>
+          <p>Precision manufacturing from Chakan MIDC, Pune — Make in India, ship worldwide.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="about.html">About</a>
+          <a href="capabilities.html">Capabilities</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html">Careers desk</a>
+        </div>
+        <div>
+          <h4>Plant</h4>
+          <a href="tel:+912067890100">+91 20 6789 0100</a>
+          <a href="mailto:sales@aarohan.in">sales@aarohan.in</a>
+          <a href="contact.html">Chakan, Pune 410501</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Aarohan Manufacturing Pvt. Ltd.</span>
+        <span>GSTIN · Maharashtra</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
